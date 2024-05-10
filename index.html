@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/tasklist.js"></script>
+</head>
+<body>
+    <!--div#main.main-->
+    <div id="main" class="main">
+        <h1>To Do List</h1>
+        <!--input#addtask-desc+button#addtask-btn-->
+        <input type="text" id="addtask-desc">
+        <button id="addtask-btn" onclick="taskCreate()">Adicionar</button>
+        <br>
+        <input type="text" id="searchtask-desc" placeholder="Pesquisar...">
+        <!--div#task-list-->
+        <div id="task-list">
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
